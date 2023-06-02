@@ -1,5 +1,5 @@
 .row1{
-    display: grid;
+    display: grid ;
     grid-template-columns: 60% 10% 10% 10% 10% ;
 }
 .row2{
@@ -23,5 +23,17 @@
 .absolute{
     position: absolute;
     top:100px ;
-    left: 740px;
+    margin-left: 520px ;
+}
+.row5{
+    display: grid ;
+    grid-template-columns: 70% 20% 10% ;
+}
+.menu1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 10px;
+}
+.fvclogo{
+    margin-right: 50px;
 }
