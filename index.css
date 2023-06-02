@@ -5,17 +5,17 @@
 .row2{
     display: grid;
     grid-template-columns:33.33% 33.33% 33.33%  ;
+    margin-left: 9.5%;
+    margin-right: 9.5%;
 }
 
 .row2 div{
     padding: 10px;
 }
- .row3{
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 10%;
-    margin-right: 10%;
- }
+.row2 img{
+    border-radius: 10px;
+}
+ 
 .row4{
     margin-left: 10%;
     margin-right: 10%;
@@ -28,12 +28,18 @@
 .row5{
     display: grid ;
     grid-template-columns: 70% 20% 10% ;
+    margin-left: 100px;
 }
 .menu1{
     display: grid;
     grid-template-columns: auto auto auto;
     margin-top: 10px;
 }
-.fvclogo{
-    margin-right: 50px;
+footer{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+.right{
+    padding-left: 50px;
 }
